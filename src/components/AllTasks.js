@@ -25,7 +25,7 @@ const AllTasks = () => {
         <div className='tasks'>
             {
                 myTasks.map((oneTask) => {
-                    const {id, name} = oneTask; // Destruction -> zavorky podle toho jestli cteme objekt nebo pole
+                    const {id, name} = oneTask;
 
                     return <div className='one-task' key={id}>
                         <h4>{name}</h4>
