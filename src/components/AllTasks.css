@@ -1,0 +1,47 @@
+.tasks{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -350px;
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.one-task{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px auto 0 auto;
+    padding: 10px 5px;
+    background-color: #eeeeee;
+}
+
+.one-task button{
+    background-color: #a90000;
+}
+
+.one-task button:hover{
+    background-color: #b73a3a;
+}
+
+.one-task button img {
+    width: 20px;
+}
+
+.main-button {
+    margin: 10px auto 0 auto;
+    background-color: #a90000;
+    color: white;
+    font-size: 1rem;
+}
+
+.main-button:hover{
+    background-color: #b73a3a;
+}
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#adffff), to(#205cff)) fixed;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
