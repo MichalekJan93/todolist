@@ -14,20 +14,25 @@
 .one-task{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
     width: 400px;
     border-radius: 10px;
     margin: 10px auto 0 auto;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 10px;
     background-color: #eeeeee;
 }
 
 .one-task button{
-    background-color: #a90000;
+    background-color: #e74c3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
 }
 
 .one-task button:hover{
-    background-color: #b73a3a;
+    background-color: rgb(166, 55, 44);
 }
 
 .one-task button img {
@@ -36,12 +41,13 @@
 
 .main-button {
     margin: 10px auto 0 auto;
-    background-color: #a90000;
+    background-color: #8c4ae7;
     color: white;
     font-size: 1rem;
+    padding: 8px 10px;
 }
 
 .main-button:hover{
-    background-color: #b73a3a;
+    background-color: #5c319a;
 }
 
